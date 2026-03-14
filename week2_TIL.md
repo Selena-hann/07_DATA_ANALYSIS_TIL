@@ -94,7 +94,13 @@ https://www.youtube.com/watch?v=Il6L8OtNFpc&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 # 2️⃣ 수행 인증
 
+<img width="956" height="1083" alt="Image" src="https://github.com/user-attachments/assets/7a1bd2eb-d11e-4599-8dc4-bce1644303d0" />
 
+<img width="956" height="1083" alt="Image" src="https://github.com/user-attachments/assets/4cdefc19-9214-4ca8-b633-17541e45476f" />
+
+<img width="956" height="1083" alt="Image" src="https://github.com/user-attachments/assets/46f3c200-a0a0-4275-94c0-67b509365117" />
+
+<img width="956" height="1083" alt="Image" src="https://github.com/user-attachments/assets/fd297244-b567-47e5-a209-c3428d25d5ff" />
 <br>
 <br>
 
