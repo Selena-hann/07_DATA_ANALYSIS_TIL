@@ -38,7 +38,36 @@ https://www.youtube.com/watch?v=Il6L8OtNFpc&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 ## 01. API 사용하기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+### API, HTTP, JSON, XML
+### API
+- 프로그램 간 데이터를 전달하기 위해 정한 규칙.
+- 수동으로 데이터를 받는 방법은 매주, 매일 반복되는 작업에는 적절하지 않음.
+- 공개 API가 제공되는지 살펴본 후, 공개 API를 사용하면 데이터 수집 과정 자동화 가능.
+
+### HTTP
+- 웹에서 데이터를 주고받기 위한 프로토콜.
+- 웹 페이지, 이미지 등을 받아 웹 브라우저에 나타내는데 HTTP를 사용함.
+- 웹 브라우저로 접속하는 인터넷 URL 주소는 모두 http 혹은 보안이 강화된 https로 시작함.
+
+### JSON
+- 근래에 아주 많이 사용하는 데이터 전달 포맷.
+- 자바스크립트 뿐만 아니라 웹 기반 API에서도 널리 대중화되어 있음.
+- 장점은 HTML이나 XML보다 사람이 읽기 편하고 간단하게 파이썬 객체로 변환 가능.
+
+### XML
+- JSON 보다 조금 장황하지만 사람이 이해하기 쉬운 구조적인 포맷 제공.
+- 파이썬에서는 기본으로 제공되는 xml 패키지를 사용해 XML문서에 있는 엘리먼트를 탐색할 수 있고, 판다스의 경우 read_xml() 함수 사용해 데이터 프레임으로 변환 가능.
+
+| 함수/메서드 | 기능 |
+| -------- | ---- |
+| json.dumps() | 파이썬 객체를 JSON 문자열로 변환함 |
+| json.loads() | JSON 문자열을 파이썬 객체로 변환함 |
+| pandas.read_json() | JSON 문자열을 판다스 시리즈나 데이터프레임으로 변환함 |
+| xml.etree. 티 ementTree.fromstring() | XML 문자열을 분석하여 xml.etree.ElementTree.Element 클래스 객체를 반환함 |
+| xml.etree.ElementTree.Element.findtext() | 지정한 태그 이름과 맞는 첫 번째 자식 엘리먼트의 텍스트를 반환 |
+| xml.etree. 티 ementTree. 티 ement.findall() | 지정한 태그 이름과 맞는 모든 자식 엘리먼트를 반환 |
+| requests.get() | HTTP GET 방식으로 URL을 호출하고 requests.Response 객체를 반환 |
+| requests.Response.json() | 응답받은 JSON 문자열을 파이썬 객체로 변환하여 반환 |
 
 ## 02.웹 스크래핑 사용하기
 
