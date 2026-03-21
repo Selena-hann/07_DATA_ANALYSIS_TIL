@@ -53,8 +53,11 @@ https://www.youtube.com/watch?v=hhbzUEQWdTg&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 # 2️⃣ 수행 인증
 
-<!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
-<!-- 이번 주차에는 API를 발급받는 과정도 포함하여 첨부해주세요.-->
+<img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/1c72b0db-73c2-439c-92c0-5babc041c297" />
+<img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/b40cdd60-40d6-4e63-92a6-ebdaa8055463" />
+<img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/68ded680-3e40-4e22-9ab5-6a85ff724bfc" />
+<img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/2972476a-a534-4bdf-a8d9-25940da52503" />
+<img width="1710" height="1107" alt="image" src="https://github.com/user-attachments/assets/7a1c698c-2927-42d7-8477-460b9c35974f" />
 
 
 <br>
