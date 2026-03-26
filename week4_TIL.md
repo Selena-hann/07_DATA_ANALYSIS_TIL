@@ -84,8 +84,9 @@ https://www.youtube.com/watch?v=Cbk_tQtuhbM&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 
 # 2️⃣ 수행 인증
-
-<!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 3장 이상의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
+<img width="1710" height="1069" alt="image" src="https://github.com/user-attachments/assets/9e4251d3-014b-4fa0-b267-9e6a4f20be15" />
+<img width="1710" height="1069" alt="image" src="https://github.com/user-attachments/assets/dac2a4ed-2d95-40bb-b8d6-a52687f09bac" />
+<img width="1710" height="1069" alt="image" src="https://github.com/user-attachments/assets/c421c10b-85c2-4d82-816d-a77552ffc8c5" />
 
 <br>
 <br>
