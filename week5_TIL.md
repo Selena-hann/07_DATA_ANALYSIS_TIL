@@ -38,16 +38,55 @@ https://www.youtube.com/watch?v=deYY4xHsI0o&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 ## 01. 맷플롯립 기본 요소 알아보기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+- 피겨
+맷플롯립의 그래프 요소를 모두 담고 있는 최상위 객체.
+맷플롯립의 그래프를 그릴 때 자동으로 피겨가 생성되고, 그래프가 그려진 후 삭제됨.
+명시적으로 피겨 객체를 만들면 다양한 옵션을 제어할 수 있음.
+
+- rcParams
+맷플롯립 그래프의 기본값을 관리하는 객체.
+객체에 담긴 값만 출력하는 것 뿐만 아니라 새로운 값으로 바꿀 수도 있음.
+이후에 그려지는 모든 그래프에 바뀐 설정이 적용됨.
+
+- 축
+그래프에서 데이터 좌표를 표현함.
+2차원 그래프는 2개의 축을 가지며 3차원 그래프는 3개의 축을 가짐.
+맷플롯립에서는 Axis 클래스로 축 객체를 다룸.
+두 개 이상의 Axis 객체로 이루어진 Axes 객체는 그래프가 그려질 영역을 표현함.
+
+- 마커
+그래프에 데이터 포인트를 표시하는 방법.
+기본 마커는 동그라미를 나타내는 o임.
+
+- 서브플롯
+피겨 안에 포함된 그래프 영역.
+보통 Axes 객체를 말함.
+subplots()함수로 여러개의 서브플롯과 서브플롯을 포함하는 피겨를 만들 수 있음.
 
 ## 02. 선 그래프와 막대 그래프 그리기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+- 선 그래프
+각 데이터 포인트를 직선으로 연결한 그래프.
+- 막대 그래프
+데이터 포인트의 크기를 막대 높이로 나타낸 그래프.
 
+~~~
+matplotlib.pyplot.annotate(): 지정한 좌표에 텍스트를 출력
+matplotlib.pyplot.bar(): 세로 막대 그래프를 그림
+matplotlib.pyplot.barh(): 가로 막대 그래프를 그림
+matplotlib.pyplot.imread(): 이미지 파일을 넘파이 배열로 읽어들임
+matplotlib.pyplot.imshow(): 이미지를 출력함
+matplotlib.pyplot.imsave(): 넘파이 배열을 이미지 파일로 저장함
+matplotlib.pyplot.savefig(): 그래프를 이미지로 저장함
+~~~
 
 # 2️⃣ 수행 인증
 
-<!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
+<img width="1710" height="1069" alt="image" src="https://github.com/user-attachments/assets/14a46ddb-69ea-4f28-a159-c9ac307c0659" />
+<img width="1710" height="1069" alt="image" src="https://github.com/user-attachments/assets/f1bdde80-4efb-4970-8a8f-67249ed0c561" />
+<img width="1710" height="1069" alt="image" src="https://github.com/user-attachments/assets/837f89df-5217-433b-b76b-cacd4488fd0f" />
+<img width="1710" height="1069" alt="image" src="https://github.com/user-attachments/assets/c1adbf5a-2199-469c-9bd4-82259959b027" />
+
 
 
 
@@ -70,7 +109,18 @@ https://www.youtube.com/watch?v=deYY4xHsI0o&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 ```
 
 ```
-여기에 코드를 작성해주세요!
+import matplotlib.pyplot as plt
+
+x=[1,2,3,4,5]
+y=[2,4,6,8,10]
+
+plt.plot(x,y,marker='o')
+
+plt.title("Linear Trend")
+plt.xlabel("X values")
+plt.ylabel("Y values")
+
+plt.show()
 ```
 
 
