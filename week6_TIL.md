@@ -42,10 +42,11 @@ https://www.youtube.com/watch?v=NTQ5NXelOfw&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 - 컬러맵: 맷플롯립에서 그래프를 그리는 데 사용하기 위해 사전에 정의한 색상 리스트. 기본 컬러맵은 진녹색에서 노란색으로 변화하는 viridis이다. 파란색에서 노란색에서 빨간색으로 변하는 jet 컬러맵도 많이 사용한다.
 - 컬러 막대: 데이터 포인트에 적용된 색상의 범위를 보여주는 막대이다. 보통 그래프의 오른쪽에 나란히 놓이며 색깔이 의미하는 실제 값을 참조하는데 사용된다.
 
-~~~
-matplotlib.pyplot.rc(): rcParams 객체의 값을 설정함
-Figure.colorbar(): 그래프에 컬러 막대를 추가함
-~~~
+|함수|설명|
+|---|---|
+|matplotlib.pyplot.rc()|rcParams 객체의 값을 설정함|
+|Figure.colorbar()|그래프에 컬러 막대를 추가함|
+
 
 ## 02. 맷플롯립의 고급 기능 배우기
 
