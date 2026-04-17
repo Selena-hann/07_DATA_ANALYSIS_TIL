@@ -87,8 +87,7 @@ Figure.colorbar(): 그래프에 컬러 막대를 추가함
 4주차에서 사용했던 캐글 데이터셋을 활용하여, 다양한 요소를 포함한 복잡한 그래프를 직접 작성해주세요.**
 
 ```
-여기에 코랩 링크를 첨부해주세요!
-(제출 전, 코랩의 공유 설정을 ‘링크가 있는 모든 사용자가 보기 가능’으로 변경했는지 반드시 확인해주세요.)
+https://colab.research.google.com/drive/1Dj9f3T8djJDvLXbPauWrjP6YIUoNWcyv?usp=sharing
 ```
 
 
